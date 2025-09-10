@@ -3,15 +3,14 @@
 [![Test](https://github.com/aerospike/aerospike-rest-gateway/actions/workflows/test.yml/badge.svg)](https://github.com/aerospike/aerospike-rest-gateway/actions/workflows/test.yml)
 
 The Aerospike REST gateway provides a server which translates Restful API requests into messages to an Aerospike
-Cluster.
-
-It can be used as a bridge between applications written in languages without an existing Aerospike Client library, or as
+Cluster. It can be used as a bridge between applications written in languages without an existing Aerospike Client library, or as
 a pluggable component in a pre-existing architecture.
+
+**Aerospike REST Gateway is a community OSS project**. As described on the [Product Stages](https://aerospike.com/docs/database/reference/product-stages#open-source-products-tools-and-libraries) page, this means that Aerospike will no longer provide support for the REST Gateway, including vulnerability patching. If you are interested in contributing to the project please open an issue or a pull request.
 
 ## API Documentation
 
-Swagger UI API documentation for this project can be found
-here [Aerospike REST Gateway API Documentation](https://docs.aerospike.com/apidocs/rest).
+Swagger UI API documentation for this project can be generated. See the docs folder for more information.
 
 ## Getting Started blog posts
 
@@ -26,7 +25,7 @@ here [Aerospike REST Gateway API Documentation](https://docs.aerospike.com/apido
 ## Installation
 
 For instructions on installing the Rest Gateway see [Installation and Configuration](./docs/installation-and-config.md)
-.
+. Older builds are [archived here](https://download.aerospike.com/artifacts/aerospike-rest-gateway/).
 
 ## Build
 

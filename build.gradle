@@ -82,7 +82,7 @@ dependencies {
     implementation('org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j:3.3.0')
     implementation('org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.13')
     implementation("javax.inject:javax.inject:1")
-    implementation("com.google.guava:guava:33.4.8-jre")
+    implementation("com.google.guava:guava:33.5.0-jre")
     implementation("org.springframework.boot:spring-boot-starter-validation:${springBootVersion}")
     implementation("org.apache.httpcomponents:httpclient:${httpclientVersion}")
     implementation("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
